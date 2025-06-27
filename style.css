@@ -1,0 +1,247 @@
+@import url(https://fonts.googleapis.com/css2?family=B612&family=Lora&family=Poppins&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  /* font-family: 'B612', sans-serif; */
+  /* font-family: 'Poppins', sans-serif;  */
+
+
+form {
+  font-family: 'Raleway', sans-serif !important;  
+}
+
+body{
+  background-color: #FDF6F0;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+h1,
+.h1 {
+  font-size: 50px !important;
+  line-height: 56px;
+  color: white !important;
+  font-family: 'Poppins', sans-serif !important;
+
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+  line-height: 56px;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+h3,
+.h3 {
+  font-size: 30px;
+  line-height: 56px;
+  color: white !important;
+  font-family: 'Raleway', sans-serif !important; 
+
+}
+
+footer{
+  background-color: #F5C6AA;
+  overflow: hidden;
+  font-size: 10px !important;
+}
+
+/* button */
+button{
+  color: white;
+  border-radius: 30px;
+  font-size: 22px;
+  padding: 15px 40px;
+  display: inline-block;
+  background-color: rgb(252, 182, 174);
+  
+}
+
+button {
+  border-radius: 0;
+}
+
+.button:hover, button:focus {
+  background-color: #F8E2CF;
+  color: white;
+  
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-main {
+  color: white;
+  border-radius: 30px;
+  font-size: 22px;
+  padding: 15px 40px;
+  display: inline-block;
+  background-color: rgb(252, 182, 174);
+  
+}
+
+.btn-main:hover, .btn-main:focus {
+  background-color: #F8E2CF;
+  color: white;
+}
+
+.btn-main-sm {
+  padding: 12px 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home{
+  height: 520px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/9816/pexels-photo-9816.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.container {
+  padding: 30px;
+}
+
+.navBar {
+  background-color: #F5C6AA;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navBar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif !important; 
+  
+}
+
+.navBar a:hover {
+  background-color: #F8E2CF;
+  color: black;
+}
+
+.font-size-50 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+p{
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 40px !important;
+}
+
+.subscription {
+  color: black !important;
+}
+
+.guyana{
+  object-fit: fill;
+}
+
+.trinidadtobago{
+  object-fit: fill;
+}
+
+.colombia{
+  object-fit: fill;
+}
+
+.countries a:hover {
+  background-color: #F5C6AA;
+  padding-left:  15px;
+  padding-right: 15px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.contact{
+  height: 400px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #F8E2CF;
+}
+
+.subscription{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter-font{
+  font-family: 'Poppins', sans-serif; !important;
+}
+
+.soon{
+  font-size: 15px !important;
+  font-family: 'Poppins', sans-serif; !important;
+}
+
+.quote{
+  font-size: 25px !important;
+   background-color: #F8E2CF;
+   color: #a35546;
+
+}
+
+.team{
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.group{
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+  padding: 40px;
+  border-radius: 50%;
+}
+
+.team_image{
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.name{
+  width: 1150px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px){
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center}
+}
+
+.footer_p {
+  font-size: 12px !important;
+}
